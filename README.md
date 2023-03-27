@@ -1,12 +1,13 @@
 # Nacos_default.token
 Nacos（QVD-2023-6271）身份认证绕过poc，支持批量检测和添加用户
 
+## 工具利用
 
+python3 Nacos_default.token.py -u http://127.0.0.1:1111 单个url测试
 
+python3 Nacos_default.token.py -f url.txt 批量检测
 
-
-
-
+扫描结束后会在当前目录生成存在漏洞url的vuln.txt
 
 
 
