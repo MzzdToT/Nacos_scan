@@ -69,7 +69,7 @@ def check_url(url):
 		else:
 			print("\033[34m[-]{} payload1 is not exist.\033[0m".format(url))
 	except Exception as e:
-		print("\033[34m[!]{} payload1 request false.{}\033[0m".format(url,res1.status_code))
+		print("\033[34m[!]{} payload1 request false.\033[0m".format(url))
 		pass
 
 	try:
@@ -81,7 +81,7 @@ def check_url(url):
 		else:
 			print("\033[34m[-]{} payload2 is not exist.\033[0m".format(url))
 	except Exception as e:
-		print("\033[34m[!]{} payload2 request false.{}\033[0m".format(url,res2.status_code))
+		print("\033[34m[!]{} payload2 request false.\033[0m".format(url))
 		pass	
 
 	try:
@@ -94,7 +94,7 @@ def check_url(url):
 		else:
 			print("\033[34m[-]{} payload3 is not exist.\033[0m".format(url))
 	except Exception as e:
-		print("\033[34m[!]{} payload3 request false.{}\033[0m".format(url,res3.status_code))
+		print("\033[34m[!]{} payload3 request false.\033[0m".format(url))
 		pass
 
 def add_user(adduser):
